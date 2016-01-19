@@ -41,17 +41,25 @@ public class DoubleLoop
       }
       //  
       //    Hide the Tortoise --#10
+      Tortoise.hide();
       Tortoise.getBackgroundWindow().setBackground(PenColors.Yellows.PeachPuff);
       //    Repeat --#3.2
     }
     //    Set the tortoise x position to 300 --#15.1
+    Tortoise.setX(300);
     //    Set the tortoise y position to 200 --#15.2
+    Tortoise.setY(200);
     //    Do the following 5 times --#12.1
-    //        Change the pen color of the line the tortoise draws to black --#14 
-    //        Move the Tortoise 25 pixels --#11
-    Tortoise.move(25);
-    //        Turn the tortoise 1/5 of 360 degrees to the right --#13  
-    //    Repeat --#12.2
+    for (int j = 0; j < 5; j++)
+    {
+      //        Change the pen color of the line the tortoise draws to black --#14 
+      Tortoise.setPenColor(PenColors.Grays.Black);
+      //        Move the Tortoise 25 pixels --#11
+      Tortoise.move(25);
+      //        Turn the tortoise 1/5 of 360 degrees to the right --#13  
+      Tortoise.turn(72);
+      //    Repeat --#12.2
+    }
     //  
   }
 }
