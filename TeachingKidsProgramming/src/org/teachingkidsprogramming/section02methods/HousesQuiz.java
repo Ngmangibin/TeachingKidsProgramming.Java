@@ -10,19 +10,19 @@ public class HousesQuiz extends HousesQuizAdapter
     // Question 1 
     //   small (recipe below) 
     //   ------------- Recipe for small 
-    length = 7;
+    small();
     //   ------------- End of small recipe
     //
     //   Question2
     //   medium (recipe below) 
     //   ------------- Recipe for medium 
-    //      set the current length to 21
+    medium();
     //   ------------- End of medium recipe
     //
     //   Question3
     //   large (recipe below) 
     //   ------------- Recipe for large 
-    //      set the current length to 63
+    large();
     //   ------------- End of large recipe
     //
     //   Question4
@@ -42,6 +42,18 @@ public class HousesQuiz extends HousesQuizAdapter
     //   ------------- Recipe for drawASide 
     //      call moveTheLength and turnTheCorner
     //   ------------- End of drawASide recipe
+  }
+  private void large()
+  {
+    length = 63;
+  }
+  private void medium()
+  {
+    length = 21;
+  }
+  private void small()
+  {
+    length = 7;
   }
   public static void main(String[] args)
   {
