@@ -9,7 +9,7 @@ public class SimpleSquare
   {
     //  Show the tortoise --#1
     Tortoise.show();
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < 4; i--)
     {
       //  Make the tortoise move as fast as possible --#6
       //  Do the following 4 times --#5.1
