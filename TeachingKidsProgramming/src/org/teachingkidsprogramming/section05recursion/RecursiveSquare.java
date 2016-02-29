@@ -13,7 +13,7 @@ public class RecursiveSquare
     //
     //  Set the speed to the fastest --#8
     //  Update the length to 100.0 --#1.1
-    double length = 50.0;
+    double length = 100.0;
     //  MakeASquare with the current length(recipe below) --#11.4
     //
     //  Create the makeASquare recipe --#11.1
